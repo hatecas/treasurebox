@@ -1,0 +1,57 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+    width:70%;
+    margin: 0 auto;
+}
+
+#divTop {
+  margin-top:10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f8f8f8;
+}
+
+#logo img{
+  width:100%;
+  height:auto;
+}
+
+#search-container {
+  margin-left:1%;
+  flex:1;
+  border:1px solid black;
+  border-radius:5px;
+  width:80%;
+}
+
+#user-controls {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#divMid {
+  width: 100%;
+  padding: 20px;
+  background: #ddd;
+  text-align: center;
+}
+
+#divBottom {
+  width: 100%;
+  padding: 20px;
+  background: #eee;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* 추가적인 스타일링이 필요할 수 있음 */

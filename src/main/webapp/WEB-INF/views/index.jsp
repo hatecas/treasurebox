@@ -33,29 +33,34 @@
             <img src="banner2.jpg" alt="Banner 2">
             <img src="banner3.png" alt="Banner 3">
           </div>
-          <button class="carousel-button prev">Previous</button>
-          <button class="carousel-button next">Next</button>
+          <button class="carousel-button prev"><img src="left.png"></button>
+          <button class="carousel-button next"><img src="right.png"></button>
         </div>
         <div id="divBottom">아이템들</div>
     </div>
     <script>
-        $(document).ready(function(){
-          var currentIndex = 0;
-          var images = $('.carousel-images img');
-          var imageCount = images.length;
+      $(document).ready(function(){
+        var currentIndex = 0;
+        var images = $('.carousel-images img');
+        var imageCount = images.length;
 
-          $('.next').click(function(){
-            images.eq(currentIndex).hide();
+        // 이미지 전환 시간을 설정합니다.
+        var transitionTime = 500; // 500ms
+
+        $('.next').click(function(){
+          images.eq(currentIndex).fadeOut(transitionTime, function() {
             currentIndex = (currentIndex + 1) % imageCount;
-            images.eq(currentIndex).show();
-          });
-
-          $('.prev').click(function(){
-            images.eq(currentIndex).hide();
-            currentIndex = (currentIndex - 1 + imageCount) % imageCount;
-            images.eq(currentIndex).show();
+            images.eq(currentIndex).fadeIn(transitionTime);
           });
         });
+
+        $('.prev').click(function(){
+          images.eq(currentIndex).fadeOut(transitionTime, function() {
+            currentIndex = (currentIndex - 1 + imageCount) % imageCount;
+            images.eq(currentIndex).fadeIn(transitionTime);
+          });
+        });
+      });
     </script>
 </body>
 </html>

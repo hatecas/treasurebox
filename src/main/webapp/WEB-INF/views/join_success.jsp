@@ -6,6 +6,6 @@
     <title>회원가입 완료</title>
 </head>
 <body>
-test
+testㅅㄷㄴㅅ
 </body>
 </html>

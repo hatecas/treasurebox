@@ -24,7 +24,7 @@
             </div>
             <div id="user-controls">
                 <button id="login">로그인</button>
-                <button id="register">회원가입</button>
+                <button id="register" onclick="location='/register'">회원가입</button>
             </div>
         </div>
         <div class="carousel">

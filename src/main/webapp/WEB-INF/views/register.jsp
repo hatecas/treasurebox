@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>회원가입</title>
-    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="/css/register.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div id="logo">
-        <img src="logo1.png">
+        <img src="/image/logo1.png">
     </div>
     <div id="container">
         <form action="/join-success" method="post">

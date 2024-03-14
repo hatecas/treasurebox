@@ -31,7 +31,7 @@
           <div class="carousel-images">
             <img src="banner1.png" alt="Banner 1">
             <img src="banner2.jpg" alt="Banner 2">
-            <img src="banner3.png" alt="Banner 3">
+            <img src="banner3.png" alt="Banner  3">
           </div>
           <button class="carousel-button prev"><img src="left.png"></button>
           <button class="carousel-button next"><img src="right.png"></button>

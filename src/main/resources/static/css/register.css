@@ -1,13 +1,114 @@
-#logo {
-    width: 10%;
-    margin-top:10px;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background: #f8f8f8;
+#container {
+    position:absolute;
+    width:400px;
+    height:400px;
+    background-color:#FFFFFF;
+    text-align:center;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
 }
 
-#logo img{
-    width:100%;
-    height:auto;
+.register_form h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+form div {
+    border-bottom: 2px solid #adadad;
+    margin: 30px;
+    padding: 10px 10px;
+}
+
+
+#user_id {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#user_pw {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#user_pwre {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#user_name {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#user_phone {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#user_birthdate {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#user_nickname {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+}
+
+#register_btn {
+    position:relative;
+    left:40%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    width:80%;
+    height:40px;
+    background: #808080 left;
+    background-size: 200%;
+    color:white;
+    font-weight: bold;
+    border:none;
+    cursor:pointer;
+    transition: 0.4s;
+    display:inline;
+}
+
+#register_btn:hover {
+    background-position: right;
 }
